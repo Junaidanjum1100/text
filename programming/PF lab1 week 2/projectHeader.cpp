@@ -3,7 +3,7 @@ using namespace std;
 main()
 {
 cout<<"******************************************"<<endl;
-cout<<"*            City Bus                      *"<<endl;
+cout<<"*            University                  *"<<endl;
 cout<<"*         Managemet System               *"<<endl;
 cout<<"*                                        *"<<endl;
 cout<<"*                                        *"<<endl;
