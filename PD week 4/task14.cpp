@@ -34,9 +34,9 @@ main()
       count = 1;
       cout<<"Enter your name : ";
       cin>>nameStd1;
-      cout<<"Enter your matric marks ";
+      cout<<"Enter your matric marks 1100  ";
       cin>>matric_marks1;
-      cout<<"Enter your  First years marks  ";
+      cout<<"Enter your  First years marks out of 550  ";
       cin>>inter_marks1;
       cout<<"Enter your Ecat marks ";
       cin>>Ecat_marks1;
@@ -48,9 +48,9 @@ main()
       count = 2;
       cout<<"Enter your name : ";
       cin>>nameStd2;
-      cout<<"Enter your matric marks ";
+      cout<<"Enter your matric marks 1100    ";
       cin>>matric_marks2;
-      cout<<"Enter your  First years marks  ";
+      cout<<"Enter your  First years marks  550    ";
       cin>>inter_marks2;
       cout<<"Enter your Ecat marks ";
       cin>>Ecat_marks2;
