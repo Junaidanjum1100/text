@@ -12,7 +12,7 @@ main()
  system("cls");
  printmaze();
  while(y < 16)
-  {
+  {                     // move down side p.....
   movedown(4 , y);
   if(y < 16)
   {

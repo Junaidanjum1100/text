@@ -10,7 +10,7 @@ main()
  {
   int num, one, ten;
   string result,result2;
-  cout<<"Enter a number  1...99  ";
+  cout<<"Enter a number  1...10 and 20...99  ";
   cin>>num;
   
 
@@ -19,14 +19,7 @@ main()
      result = ones(num);
      cout<<result<<endl;
    }
-   if(num >= 11 )
-     {
-       if(num < 20)
-        {
-          result = name(num);
-          cout<<result<<endl<<endl;
-        }
-      } 
+   
    if(num > 19)
      {
        if(num <= 99)
@@ -122,42 +115,3 @@ string ones(int num)
       return "Ninety";
     }  
  }
-string name(int num)
- {
-   if(num == 11)
-     {
-      return "Eleven";
-     }
-       if(num == 12)
-     {
-      return "Twelve";
-     }
-       if(num == 13)
-     {
-      return "Thirteen";
-     }
-       if(num == 14)
-     {
-      return "Fourteen";
-     }
-       if(num == 15)
-     {
-      return "Fifteen";
-     }
-       if(num == 16)
-     {
-      return "Sixteen";
-     }
-       if(num == 17)
-     {
-      return "Seventeen";
-     }
-       if(num == 18)
-     {
-      return "Eighteen";
-     }
-       if(num == 19)
-     {
-      return "Nineteen";
-     }
-}
