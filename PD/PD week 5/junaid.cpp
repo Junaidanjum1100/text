@@ -6,11 +6,14 @@ void printPacman(int x, int y);
 void gotoxy(int x, int y);
 void erase(int x, int y);
 void score();
-
+void showGhost(int x, int y);
+void clear(int x, int y , char previous);
 char getCharAtxy(short int x, short int y);
 
 main()
 {
+  
+
   int c=0;
   int pacmanX = 4;
   int pacmanY = 4;
@@ -18,10 +21,13 @@ main()
   
   system("cls");
   printmaze();
+  
+  
   printPacman(pacmanX , pacmanY);
   
   while(gameRunning)
    {
+    
      if(GetAsyncKeyState(VK_LEFT))
        {
          char nextLocation = getCharAtxy(pacmanX - 1, pacmanY);
@@ -135,4 +141,14 @@ void score()
   int c=1;
   gotoxy(8,30);
   cout<<"Your score "<<c++;
+ }
+ void clear(int x, int y , char previous)
+ {
+  gotoxy(x, y);
+  cout<<previous;
+ }
+ void showGhost(int x, int y)
+ {
+  gotoxy(x, y);
+  cout<<"G";
  }
