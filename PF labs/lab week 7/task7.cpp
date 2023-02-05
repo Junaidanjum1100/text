@@ -42,6 +42,4 @@ void printPercentage(int number)
     cout<<  (p3 *100.0) / number<<" %"<<endl;
     cout<<  (p4 *100.0) / number<<" %"<<endl;
     cout<<  (p5 *100.0) / number<<" %"<<endl;
-   
-
 }

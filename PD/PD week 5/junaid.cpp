@@ -10,11 +10,10 @@ void showGhost(int x, int y);
 void clear(int x, int y , char previous);
 char getCharAtxy(short int x, short int y);
 
+
+int c=0;
 main()
 {
-  
-
-  int c=0;
   int pacmanX = 4;
   int pacmanY = 4;
   bool gameRunning = true;
@@ -33,7 +32,6 @@ main()
          char nextLocation = getCharAtxy(pacmanX - 1, pacmanY);
            if(nextLocation == ' ' || nextLocation == '.')
             {
-            
                erase(pacmanX , pacmanY);
                pacmanX = pacmanX - 1;
                printPacman(pacmanX , pacmanY);
@@ -138,7 +136,6 @@ char getCharAtxy(short int x, short int y)
  }
 void score()
  {
-  int c=1;
   gotoxy(8,30);
   cout<<"Your score "<<c++;
  }
